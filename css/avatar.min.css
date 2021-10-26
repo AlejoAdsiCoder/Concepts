@@ -1,0 +1,101 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="ErrorPagesStyles.css">
+    <title>Error encontrado.</title>
+</head>
+<body>
+
+<header class="main-header row">
+                
+
+
+
+                <div class="inner content container">
+                    
+<div class="sfContentBlock">
+<div id="google_translate_element" style="display: none;">&nbsp;
+<div class="skiptranslate goog-te-gadget" dir="ltr">
+<div id=":0.targetLanguage" style="display: inline;">
+<select class="goog-te-combo"><option value="">Seleccionar idioma</option><option value="es">español</option><option value="en">inglés</option>
+</select></div>&nbsp;&nbsp;Con la tecnología de <
+span style="white-space:nowrap"><a class="goog-logo-link" href="https://translate.google.com" target="_blank"><
+img src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png" width="37px" height="14px" style="padding-right: 3px">
+Traductor de Google</a></span></div></div>
+
+
+</div>
+<div class="sfContentBlock"><div class="col-xs-3 box-logo">
+<h1 class="hide-text">Icetex</h1>
+<div class="brand change">
+<a href="/Portal/">
+<img src="https://portal.icetex.gov.co/Portal/images/default-source/imageneshome/InicioLibreria/log-icetex.png" alt="Icetex" class="logo1_header">
+</a>
+</div>
+</div>
+
+
+</div>
+                    
+                    <div class="col-xs-9 box-lang">
+                        <div class="row">
+                            
+                            
+
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </header>
+    <div class="container error">
+        <div class="cont_error">
+            <div class="image"><img src="Images/icon_error.png"></div>
+            <div class="text">
+                <h2>El sistema presenta un error.</h2>
+                <p>Esta p&aacute;gina ya no existe, por favor ve al men&uacute; principal, o int&eacute;ntalo con otra p&aacute;gina. 404</p>
+                <a href="https://portal.icetex.gov.co/Portal/" class="btn">Regresar al inicio</a>
+            </div>
+        </div>
+    </div> 
+	
+	<div class="sfContentBlock">
+		<footer class="global-footer">
+			<div class="row">
+			<div class="container container-footer">
+   
+          <div class="inner">
+        <p class="text">Direcci&oacute;n: Carrera. 3 No. 18-32</p>
+        <p class="text">Horario de atenci&oacute;n: Lunes a viernes de 8:00 a.m. a 4:30 p.m.</p>
+        <p class="text"><a href="/Portal/notificaciones-judiciales" target="_parent" style="text-decoration: none;">Notificaciones Judiciales:</a> <a href="mailto:notificaciones@icetex.gov.co">notificaciones@icetex.gov.co</a></p>
+        <p class="text">L&iacute;neas de atenci&oacute;n al usuario del ICETEX Bogot&aacute;: tel:(57-1) 417-3535 | A nivel nacional: tel:019003313777 (con costo)</p>
+        </div>
+        <div class="inner">
+        <p class="text">
+        <a href="https://portal.icetex.gov.co/Portal/Home/atencion-al-ciudadano/pqrd/">Peticiones, Quejas y Reclamos</a>
+        | <a href="https://portal.icetex.gov.co/Portal/atencion-al-ciudadano/red_oficinas">Red de oficinas </a>
+        | <a href="https://portal.icetex.gov.co/Portal/Home/el-icetex/estructura-organizacional/directores-territoriales/">Estructura organizacional</a>
+        | <a href="http://www.icetex.gov.co/dnnpro5/Portals/0/Documentos/Politica_tratamiento_datos.pdf#search=">Pol&iacute;tica de tratamiento de datos</a>
+        |<a href="https://portal.icetex.gov.co/Portal/Home/atencion-al-ciudadano/preguntas-frecuentes">Preguntas Frecuentes</a>
+        | <a href="https://portal.icetex.gov.co/Portal/Home/atencion-al-ciudadano/glosario/">Glosario </a>
+        </p>
+        </div>
+        <div class="inner">
+        <p class="text">
+        <a href="/Portal/terminos-y-condiciones">T&eacute;rminos y condiciones del sitio</a>
+        | <a href="/Portal/mapa-navegacion">Mapa del sitio </a> |
+        <a href="http://becas/funcionarios/funcionarios.html" alt="Intranet de Funcionarios" target="_blank">Funcionarios</a> |
+        <a href="https://correoweb.icetex.gov.co/owa/">Correo Institucional</a> |
+        <a href="https://portal.icetex.gov.co/Portal/Home/atencion-al-ciudadano/defensor-del-consumidor-financiero/" target="_blank">Defensor del consumidor financiero</a>
+        </p>
+        </div>
+
+
+			</div>
+			</div>
+		</footer>
+	</div>
+	
+</body>
+</html>
+
+

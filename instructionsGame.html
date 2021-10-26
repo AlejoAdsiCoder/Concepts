@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/game1.css" rel="stylesheet" type="text/css">
+    <link href="css/plugin.css" rel="stylesheet" type="text/css">
+    <link href="css/game2.css" rel="stylesheet" type="text/css">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/avatar.min.css" rel="stylesheet" type="text/css"> 
+</head>
+<body>
+  
+    <div class="game-wrapper-conceptos">
+        <div id="stage002" class="startRight stage">
+            <div class="content-info">
+                <h6>Instrucciones</h6>
+                <p>
+                    En el siguiente juego encontrarás dos columnas. En la columna de la izquierda están escritos cinco títulos que debes relacionar con cinco conceptos que se encuentran en la columna de la derecha.
+                </p>
+                <span>
+                    Las preguntas cambian de orden cada vez que comienza un nuevo juego.
+                </span>
+                <a href='playGame.html' id="playConceptos">Jugar</a>
+            </div>
+        </div>
+        <div class="footer-orange">
+            <a href="">
+    
+            </a>
+        </div>
+    </div>
+
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/TweenLite.min.js"></script>
+<script src="js/CSSPlugin.min.js"></script>
+<script src="js/royal-slider-min.js"></script>
+<script src="js/bx-slider.js"></script>
+<script src="js/jquery.tooltipster.min.js"></script>
+<script src="js/animation.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function () {
+        $('#stage002').animate({
+            left: "-=100%",
+            opacity: "1"
+        }, 800)
+    })
+</script>
+</body>
+
+</html>

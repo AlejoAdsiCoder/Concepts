@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href="css/game1.css" rel="stylesheet" type="text/css">
+    <link href="css/plugin.css" rel="stylesheet" type="text/css">
+    <link href="css/game2.css" rel="stylesheet" type="text/css">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <link href="css/avatar.min.css" rel="stylesheet" type="text/css"> 
+</head>
+<body>
+<div class="game-wrapper-conceptos">
+    <div id="stage01">
+        <div class="main-title-rela animated bounceInDown">
+            <img src="images/title-rela.svg">
+        </div>
+        <div class="intro-rela">
+            <span class="black-intro">
+                <img id="t01" src="images/black-intro.png" class="animated bounceInLeft">
+            </span>
+            <span class="blue-intro">
+                <img src="images/blue-intro.png" class="animated bounceInRight">
+            </span>
+            <span class="white-intro">
+                <img src="images/white-intro.png" class="animated bounceInLeft">
+            </span>
+        </div>
+    </div>
+    <div class="footer-orange">
+    </div>
+</div>
+<div style="display:none;">
+    <input id="btnInstructionsGame" type="button" title="Instrucciones" value="Instrucciones" onclick="location.href='instructionsGame.html'" />
+</div>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/TweenLite.min.js"></script>
+<script src="js/CSSPlugin.min.js"></script>
+<script src="js/royal-slider-min.js"></script>
+<script src="js/bx-slider.js"></script>
+<script src="js/jquery.tooltipster.min.js"></script>
+<script src="js/animation.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function (){
+
+        setTimeout(function () {
+            
+            $("#btnInstructionsGame").trigger("click");
+
+        }, 800 + 2000)
+    })
+</script>
+</body>
+</html>
