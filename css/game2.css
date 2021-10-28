@@ -1,13 +1,27 @@
 /* FONTS */
 /* COLORS */
 /* SIZES RESPONSIVE */
-@font-face {
+/* @font-face {
   font-family: 'bready';
   src: url("../fonts/bready_alternates_demo-webfont.eot");
   src: url("../fonts/bready_alternates_demo-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/bready_alternates_demo-webfont.woff2") format("woff2"), url("../fonts/bready_alternates_demo-webfont.woff") format("woff"), url("../fonts/bready_alternates_demo-webfont.ttf") format("truetype"), url("../fonts/bready_alternates_demo-webfont.svg#chunkfive_exregular") format("svg");
   font-weight: normal;
   font-style: normal;
+} */
+
+@font-face {
+  font-family: 'bready';
+  src: url('../fonts/bready/BreadyAlternatesDemo.eot');
+  src: url('../fonts/bready/BreadyAlternatesDemo.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/bready/BreadyAlternatesDemo.woff2') format('woff2'),
+      url('../fonts/bready/BreadyAlternatesDemo.woff') format('woff'),
+      url('../fonts/bready/BreadyAlternatesDemo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
+
+
 
 body {
   font-family: "Lato", sans-serif;
@@ -125,7 +139,20 @@ a {
   }
 }
 
+
+
+/* #stage003 .footer-orange {
+  display: none;
+} */
+
+.noStars .footer-orange {
+  visibility: hidden;
+}
+
 .footer-orange {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
   position: absolute;
   background: #FF9F1F;
   width: 100%;
@@ -381,11 +408,10 @@ a {
 }
 
 .stars-conceptos {
-  position: absolute;
-  bottom: 9px;
+  display: flex;
+  flex-direction: row-reverse;
   z-index: 1;
-  right: 9px;
-  height: 5px;
+  margin-right: 9px;
 }
 
 @media (max-width: 920px) {

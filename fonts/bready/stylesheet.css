@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Bready Alternates Demo';
+    src: url('BreadyAlternatesDemo.eot');
+    src: url('BreadyAlternatesDemo.eot?#iefix') format('embedded-opentype'),
+        url('BreadyAlternatesDemo.woff2') format('woff2'),
+        url('BreadyAlternatesDemo.woff') format('woff'),
+        url('BreadyAlternatesDemo.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
